@@ -1,0 +1,32 @@
+{
+  "name": "@elnemer70/json-schema-infer",
+  "version": "1.0.0",
+  "description": "Infer JSON Schema Draft-07 specifications from JSON sample objects",
+  "bin": {
+    "json-schema-infer": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "json-schema",
+    "json",
+    "types"
+  ],
+  "author": "ElNeMeR70",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElNeMeR70/json-schema-infer.git"
+  },
+  "homepage": "https://github.com/ElNeMeR70/json-schema-infer#readme",
+  "bugs": {
+    "url": "https://github.com/ElNeMeR70/json-schema-infer/issues"
+  }
+}
